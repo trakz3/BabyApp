@@ -7,79 +7,96 @@
         android:layout_height="wrap_content"
         android:text="Formula"
         android:id="@+id/FormulaCheckBox"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="119dp"
+        android:layout_marginTop="53dp"
         android:checked="false"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Diapers"
         android:id="@+id/DiapersCheckBox2"
-        android:layout_below="@+id/FormulaCheckBox"
         android:layout_alignParentStart="true"
         android:checked="false"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_below="@+id/FormulaCheckBox"
+        android:layout_alignParentLeft="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Baby Wipes"
         android:id="@+id/BabyWipesCheckBox3"
-        android:layout_below="@+id/DiapersCheckBox2"
         android:layout_alignParentStart="true"
         android:checked="false"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_below="@+id/DiapersCheckBox2"
+        android:layout_alignParentLeft="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Baby Lotion"
         android:id="@+id/BabyLotionCheckBox4"
-        android:layout_below="@+id/BabyWipesCheckBox3"
         android:layout_alignParentStart="true"
         android:checked="false"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_below="@+id/BabyWipesCheckBox3"
+        android:layout_alignParentLeft="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Baby Shampoo"
         android:id="@+id/BabyShampooCheckBox5"
-        android:layout_below="@+id/BabyLotionCheckBox4"
         android:layout_alignParentStart="true"
         android:checked="false"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_below="@+id/BabyLotionCheckBox4"
+        android:layout_alignParentLeft="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Baby Powder"
         android:id="@+id/BabyPowderCheckBox6"
-        android:layout_below="@+id/BabyShampooCheckBox5"
         android:layout_alignParentStart="true"
         android:checked="false"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_below="@+id/BabyShampooCheckBox5"
+        android:layout_alignParentLeft="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Purified Baby Water"
         android:id="@+id/BabyWaterCheckBox"
-        android:layout_below="@+id/BabyPowderCheckBox6"
         android:layout_alignParentStart="true"
         android:checked="false"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_below="@+id/BabyPowderCheckBox6"
+        android:layout_alignParentLeft="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Baby Body Wash"
         android:id="@+id/BabyBodyWashCheckBox"
-        android:layout_below="@+id/BabyWaterCheckBox"
         android:layout_alignParentStart="true"
         android:checked="false"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_below="@+id/BabyWaterCheckBox"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Baby Items To Buy"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp" />
 </RelativeLayout>
