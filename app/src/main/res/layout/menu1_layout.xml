@@ -1,14 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="111111111"
-        android:id="@+id/textView"
+        android:text="@string/babyFeeding"
+        android:id="@+id/FeedingTextView"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="132dp" />
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/bottles"
+        android:id="@+id/BottlesTextView"
+        android:layout_marginTop="94dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/FeedingTextView"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="2"
+        android:id="@+id/editText"
+        android:layout_marginLeft="40dp"
+        android:layout_alignBottom="@+id/BottlesTextView"
+        android:layout_alignEnd="@+id/FeedingTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/wetDiapers"
+        android:id="@+id/wetDiaperTextView"
+        android:layout_below="@+id/BottlesTextView"
+        android:layout_alignStart="@+id/BottlesTextView"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/soiledDiapers"
+        android:id="@+id/soildDiaperTextView"
+        android:layout_below="@+id/wetDiaperTextView"
+        android:layout_alignStart="@+id/wetDiaperTextView"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/naps"
+        android:id="@+id/babyNapsTextView"
+        android:layout_below="@+id/soildDiaperTextView"
+        android:layout_alignStart="@+id/soildDiaperTextView"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="2"
+        android:id="@+id/editText3"
+        android:layout_above="@+id/soildDiaperTextView"
+        android:layout_alignEnd="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="2"
+        android:id="@+id/editText4"
+        android:layout_alignBottom="@+id/soildDiaperTextView"
+        android:layout_alignStart="@+id/editText3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="2"
+        android:id="@+id/editText5"
+        android:layout_alignBottom="@+id/babyNapsTextView"
+        android:layout_alignStart="@+id/editText4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/saveButton"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/babyNapsTextView"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

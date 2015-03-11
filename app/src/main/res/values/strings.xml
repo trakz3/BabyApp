@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Baby Log</string>
 
-    <string name="title_section1">Baby Feeding</string>
+    <string name="title_section1">Baby Tracker</string>
     <string name="title_section2">Baby To Do</string>
     <string name="title_section3">Baby Tips</string>
 
@@ -13,4 +13,26 @@
     <string name="action_settings">Settings</string>
     <string name="BabyLogo">Baby Logo</string>
     <string name="BabyIcon">Baby Icon</string>
+    <string name="babyFeeding">Baby Tracker</string>
+    <string name="burritoInfo">Your newborn loves to feel safe and secure, like he did when he was in-utero.</string>
+    <string name="babyBurrito">1. Make a Baby Burrito</string>
+    <string name="babyTips">Baby Tips</string>
+    <string name="babyMoving">2. Keep it Moving</string>
+    <string name="moving">Your baby might have been well-insulated while on the inside, but she still felt plenty of movement. Try gently bouncing her up and down or swinging her from side to side when she needs help settling down.</string>
+    <string name="formula">Formula</string>
+    <string name="diapers">Diapers</string>
+    <string name="babyWipes">Baby Wipes</string>
+    <string name="babyLotion">Baby Lotion</string>
+    <string name="babyShampoo">Baby Shampoo</string>
+    <string name="babyPowder">Baby Powder</string>
+    <string name="babyWater">Purified Baby Water</string>
+    <string name="babyWash">Baby Body Wash</string>
+    <string name="babyItems">Baby Items To Buy</string>
+    <string name="custom">CustomList</string>
+    <string name="babyFinger">3. Lend a (Clean) Finger</string>
+    <string name="finger">Babies love to suck; it’s a natural reflex in newborns through about three months of age. Some babies begin sucking their thumbs while still in the womb, and for many newborns sucking on their fingers and hands or a pacifier can be very soothing.</string>
+    <string name="bottles">Bottles Per Day</string>
+    <string name="wetDiapers">Wet Diapers</string>
+    <string name="soiledDiapers">Soiled Diapers</string>
+    <string name="naps">Baby Naps</string>
 </resources>

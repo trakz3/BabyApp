@@ -2,4 +2,82 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/babyTips"
+        android:id="@+id/BabyTipsTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/babyBurrito"
+        android:id="@+id/BabyBurritoTextView"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/burritoInfo"
+        android:id="@+id/burritoTextView"
+        android:layout_below="@+id/BabyBurritoTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/BabyTipsTextView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/babyMoving"
+        android:id="@+id/BabyMovingTextView"
+        android:layout_below="@id/burritoTextView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/moving"
+        android:id="@+id/movingTextView"
+        android:layout_below="@+id/BabyMovingTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/babyFinger"
+        android:id="@+id/CleanFingerTextView"
+        android:layout_below="@+id/movingTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/finger"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/finger"
+        android:id="@+id/FingertextView"
+        android:layout_below="@+id/CleanFingerTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"/>
 </RelativeLayout>
